@@ -1,0 +1,18 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.langchain/
+
+# Vector store (optional – see note below)
+vectorstore/db_faiss/
+
+# OS files
+.DS_Store
+Thumbs.db
