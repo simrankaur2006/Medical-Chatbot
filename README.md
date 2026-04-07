@@ -39,14 +39,23 @@ Hugging Face LLM (Answer Generation)
 
 Medical-Chatbot/
 ├── connect_memory_with_llm.py # Core RAG logic (LLM + FAISS)
+
 ├── medibot.py # Streamlit UI
+
 ├── connect_memory_with_llm.py # PDF ingestion & FAISS creation
+
 ├── requirements.txt # Project dependencies
+
 ├── .env.example # Environment variable template
+
 ├── data/ # Medical PDF files
+
 │ └── *.pdf
+
 ├── vectorstore/
+
 │ └── db_faiss/ # FAISS index (generated)
+
 └── README.md
 
 
